@@ -20,5 +20,5 @@ echo ${IVY_CONF} >> ~/.ivy2/credentials || echo "Couldn't write ivy into ~/.ivy2
 echo ${IVY_CONF} >> /root/.ivy2/credentials || sudo echo ${IVY_CONF} >> /root/.ivy2/credentials || echo "Couldn't write ivy into /root/.ivy2/credentials"
 
 echo "Running command"
-sbt ${COMMAND}
+sbt "${COMMAND}"
 
